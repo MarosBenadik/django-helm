@@ -28,8 +28,6 @@ ingress:
       paths:
         - path: /django(.*)
           pathType: ImplementationSpecific
-        - path: /djangostatic(.*)
-          pathType: ImplementationSpecific
   tls: []
 
 resources: {}
